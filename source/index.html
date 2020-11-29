@@ -1,12 +1,268 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Погнали</title>
-  </head>
-  <body>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Проект Погнали</title>
+</head>
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img src="img/logo_mobile.png" width="96" height="15" alt="проект Погнали»">
+     </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list site-list">
+          <li class="site-list__item site-list__item--active">
+            <a>
+              О СЕРВИСЕ
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="photo.html">
+              НАПРАВЛЕНИЯ
+            </a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">
+              ПОПУТЧИКИ
+            </a>
+          </li>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+        </ul>
+        <div class="main-nav__list user-list">
+          <a class="user-list__login" href="login.html">
+          АВТОРИЗАЦИЯ
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
 
-  </body>
+  <main class="page-main">
+
+    <h1 class="visually-hidden">Проект о путешествиях</h1>
+
+    <section class="stats">
+      <div class="stats__wrapper">
+        <header class="stats__header">
+          <h2 class="visually-hidden">
+            Статистика Погнали
+          </h2>
+          <p class="stats__slogan">
+            В путешествие <br>
+            с крутыми <br>
+            попутчиками!
+          </p>
+          <p class="stats__intro">
+            «Лучшее приложение, что я видел в жизни!»
+          </p>
+          <p class="stats__legend">
+            Мурат Эльтазин главный редактор газеты «гаджетлайф»
+          </p>
+        </header>
+        <dl class="stats__list">
+          <div class="stats__item">
+            <dt class="stats__number">
+              Выберите
+              направление
+            </dt>
+            <dd class="stats__description">
+              1
+            </dd>
+          </div>
+          <div class="stats__item">
+            <dt class="stats__number">
+              Изучите идеи
+путешественников
+            </dt>
+            <dd class="stats__description">
+              2
+            </dd>
+          </div>
+          <div class="stats__item">
+            <dt class="stats__number">
+              Находите тех,
+кто похож на вас
+            </dt>
+            <dd class="stats__description">
+              3
+            </dd>
+          </div>
+          <div class="stats__item">
+            <dt class="stats__number">
+              Путешествуйте вместе!
+            </dt>
+            <dd class="stats__description">
+              4
+            </dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="advantages">
+
+    </section>
+
+    <section class="service">
+      <div class="service__wrapper">
+        <h2 class="service__title">Новости и акции</h2>
+        <p class="service__info">
+          Любое путешествие веселее с попутчиками, которые на одной волне с тобой!
+          Делитесь своими идеями путешествий и черпайте вдохновение в чужих.
+        </p>
+        <p class="service__dop">
+          А если найдете кого-то близкого по духу — скорее зовите в совместный трип!
+        </p>
+      </div>
+    </section>
+
+    <section class="direction">
+      <div class="direction__wrapper">
+        <h2 class="direction__title">Направления</h2>
+        <ul class="direction__list">
+          <li class="direction__item">
+            <h3 class="direction__title">Таиланд</h3>
+            <p class="direction__description">Джунгли зовут!</p>
+          </li>
+          <li class="direction__item">
+            <h3 class="direction__title">Франция</h3>
+            <p class="direction__description">Трэ бьен, манифик!</p>
+          </li>
+          <li class="direction__item">
+            <h3 class="direction__title">Чехия</h3>
+            <p class="direction__description">Закоулки старой Европы</p>
+          </li>
+        </ul>
+        <a class="button news__to-all" href="#">Показать все</a>
+      </div>
+    </section>
+
+    <section class="companion">
+      <div class="companion__wrapper">
+        <h2 class="direction__title">Попутчики</h2>
+
+<p class="companion__text">
+  Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
+</p>
+
+<p class="companion__subtext">
+  Теперь можно легко найти единомышленников!
+</p>
+        <ul class="companion__list">
+          <li class="companion__item">
+            <p class="companion__title">Таня Фирсова</p>
+            <p class="companion__description">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+          </li>
+          <li class="companion__item">
+            <h3 class="companion__title">Петя Демин</h3>
+            <p class="companion__description">#бургер #бар #футбол #концерт #крафт</p>
+          </li>
+
+        </ul>
+        <a class="button news__to-all" href="#">Показать все</a>
+      </div>
+    </section>
+
+    <section class="profile">
+      <div class="profile__wrapper">
+        <h2 class="profile__title">Добавьте свой профиль</h2>
+        <dl class="profile__list">
+          <div class="profile__item">
+            <dt class="profile__number">
+              Базовое размещение
+              Бесплатно
+            </dt>
+            <dd class="profile__description">
+              1
+            </dd>
+          </div>
+          <div class="profile__item">
+            <dt class="profile__number">
+              Вывод на первых позициях
+            </dt>
+            <dd class="profile__description">
+              2
+            </dd>
+          </div>
+          <div class="profile__item">
+            <dt class="profile__number">
+              Кастомный цвет карточки
+            </dt>
+            <dd class="profile__description">
+              3
+            </dd>
+          </div>
+        </dl>
+        <a class="profile__to-all" href="#">Показать тарифы для бизнеса</a>
+      </div>
+    </section>
+
+    <section class="support">
+      <div class="support__wrapper">
+        <h2 class="support__title">Заинтересовались?</h2>
+        <p class="support__info">
+          Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистрированы? Тогда скорее авторизуйтесь.
+        </p>
+        <p class="support__dop">
+          Остались вопросы? Мы с радостью на них ответим!
+        </p>
+
+        <a class="support__phone" href="tel:+78125556666">
+           +7 (812) 555-66-66
+        </a>
+        <a class="support__mail" href="mail:mail@htmlacademy.ru">
+           mail@htmlacademy.ru
+        </a>
+      </div>
+    </section>
+
+    <section class="route">
+      <div class="route__wrapper">
+        <h2 class="visually-hidden">маршрут</h2>
+        <p class="route__info">
+          ул. Большая Конюшенная, 19/8
+        </p>
+
+        <a class="support__mail" href=#>
+           Проложить маршрут
+        </a>
+      </div>
+    </section>
+
+    <section class="map">
+      <div class="map__wrapper">
+        <h2 class="visually-hidden">карта</h2>
+      </div>
+    </section>
+
+    <footer class="page-footer">
+      <div class="page-footer__wrapper">
+        <a class="page-footer__logo">
+          <img src="img/logo_mobile.png" width="96" height="15" alt="проект Погнали»">
+         </a>
+        <div class="page-footer__social social">
+          <ul class="social__list">
+            <li class="social__item">
+              <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+            </li>
+            <li class="social__item">
+              <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+            </li>
+          </ul>
+        </div>
+        <div class="page-footer__copyright copyright">
+          <b class="copyright__text">Разработано:</b>
+          <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+</body>
 </html>
