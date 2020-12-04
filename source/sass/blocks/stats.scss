@@ -1,0 +1,59 @@
+.stats {
+  background-color: #161C35;
+  color: #ffffff;
+  padding: 0 64px;
+}
+
+.stats__list {
+  background-color: #FFA530;
+  color: #161C35;
+}
+
+.stats__slogan {
+  font-size: 36px;
+  outline: 5px solid rgba(34, 238, 194, 0.8);
+  outline-offset: -5px;
+  margin: 0;
+  @media (min-width: $desktop-width) {
+    grid-column-start: 1;
+    grid-row-end: 3;
+    grid-row-start: 1;
+    }
+}
+
+.stats__intro {
+  font-size: 16px;
+  outline: 5px solid rgba(197, 34, 238, 0.8);
+  outline-offset: -5px;
+  margin: 0;
+  @media (min-width: $desktop-width) {
+    grid-column-start: 2;
+    grid-row-start: 1;
+    }
+
+}
+
+.stats__legend {
+  font-size: 16px;
+  outline: 5px solid rgba(46, 128, 26, 0.8);
+  outline-offset: -5px;
+  margin: 0;
+  @media (min-width: $desktop-width) {
+  grid-column-start: 2;
+  grid-row-start: 2;
+  }
+
+}
+
+.stats__wrapper {
+  @media (min-width: $desktop-width) {
+    margin: auto;
+    max-width: 1320px;
+  }
+}
+
+.stats__header {
+
+display: grid;
+
+}

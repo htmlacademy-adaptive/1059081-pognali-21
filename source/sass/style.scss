@@ -1,1 +1,11 @@
-// Начните писать стили здесь
+// general
+
+//@import "../sass/general/normalize.scss";
+@import "../sass/general/fonts.scss";
+@import "../sass/general/variables.scss";
+@import "../sass/general/global.scss";
+@import "../sass/blocks/page-header.scss";
+@import "../sass/blocks/main-nav.scss";
+@import "../sass/blocks/site-list.scss";
+@import "../sass/blocks/user-list.scss";
+@import "../sass/blocks/stats.scss";

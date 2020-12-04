@@ -1,0 +1,10 @@
+.user-list {
+  outline: 5px solid rgba(34, 238, 194, 0.8);
+  outline-offset: -5px;
+}
+
+@media (min-width: $tablet-width) {
+  .user-list {
+    width: 188px;
+  }
+}

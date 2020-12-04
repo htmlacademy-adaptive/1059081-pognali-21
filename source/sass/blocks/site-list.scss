@@ -1,0 +1,19 @@
+.site-list {
+  outline: 5px solid rgba(0, 255, 0, 0.8);
+  outline-offset: -5px;
+}
+
+@media (min-width: $tablet-width) {
+  .site-list {
+    width: 383px;
+    font-size: 60px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .site-list {
+    display: flex;
+    width: 390px;
+    font-size: 20px;
+  }
+}
