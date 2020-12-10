@@ -67,7 +67,7 @@
           </p>
         </header>
         <dl class="stats__list">
-          <div class="stats__item">
+          <div class="stats__item--change">
             <dt class="stats__number">
               Выберите
               направление
@@ -76,7 +76,7 @@
               1
             </dd>
           </div>
-          <div class="stats__item">
+          <div class="stats__item--idea">
             <dt class="stats__number">
               Изучите идеи
 путешественников
@@ -85,7 +85,7 @@
               2
             </dd>
           </div>
-          <div class="stats__item">
+          <div class="stats__item--find">
             <dt class="stats__number">
               Находите тех,
 кто похож на вас
@@ -94,7 +94,7 @@
               3
             </dd>
           </div>
-          <div class="stats__item">
+          <div class="stats__item--travel">
             <dt class="stats__number">
               Путешествуйте вместе!
             </dt>
@@ -106,13 +106,9 @@
       </div>
     </section>
 
-    <section class="advantages">
-
-    </section>
-
     <section class="service">
       <div class="service__wrapper">
-        <h2 class="service__title">Новости и акции</h2>
+        <h2 class="service__title">О сервисе</h2>
         <p class="service__info">
           Любое путешествие веселее с попутчиками, которые на одной волне с тобой!
           Делитесь своими идеями путешествий и черпайте вдохновение в чужих.
@@ -126,6 +122,13 @@
     <section class="direction">
       <div class="direction__wrapper">
         <h2 class="direction__title">Направления</h2>
+        <p class="direction__text">
+          Мы не продаем туры<br>
+          и ничего не рекламируем.<br>
+          Люди сами пишут о странах,<br>
+          куда хотели бы отправиться<br>
+          и чем можно там заняться.
+        </p>
         <ul class="direction__list">
           <li class="direction__item">
             <h3 class="direction__title">Таиланд</h3>
@@ -148,13 +151,13 @@
       <div class="companion__wrapper">
         <h2 class="direction__title">Попутчики</h2>
 
-<p class="companion__text">
-  Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
-</p>
+        <p class="companion__text">
+          Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
+        </p>
 
-<p class="companion__subtext">
-  Теперь можно легко найти единомышленников!
-</p>
+        <p class="companion__subtext">
+        Теперь можно легко найти единомышленников!
+        </p>
         <ul class="companion__list">
           <li class="companion__item">
             <p class="companion__title">Таня Фирсова</p>
@@ -173,33 +176,24 @@
     <section class="profile">
       <div class="profile__wrapper">
         <h2 class="profile__title">Добавьте свой профиль</h2>
-        <dl class="profile__list">
-          <div class="profile__item">
-            <dt class="profile__number">
-              Базовое размещение
-              Бесплатно
-            </dt>
-            <dd class="profile__description">
-              1
-            </dd>
-          </div>
-          <div class="profile__item">
-            <dt class="profile__number">
-              Вывод на первых позициях
-            </dt>
-            <dd class="profile__description">
-              2
-            </dd>
-          </div>
-          <div class="profile__item">
-            <dt class="profile__number">
-              Кастомный цвет карточки
-            </dt>
-            <dd class="profile__description">
-              3
-            </dd>
-          </div>
-        </dl>
+
+        <ol class="new-profile__price-list">
+          <li class="new-profile__item new-profile__item--1">
+            <span class="new-profile__option">Базовое размещение</span>
+            <span class="new-profile__price">Бесплатно</span>
+          </li>
+
+          <li class="new-profile__item new-profile__item--2">
+            <span class="new-profile__option">Вывод на первых позициях</span>
+            <span class="new-profile__price">99 руб./мес</span>
+          </li>
+
+          <li class="new-profile__item new-profile__item--3">
+            <span class="new-profile__option">Кастомный цвет карточки</span>
+            <span class="new-profile__price">59 руб./мес</span>
+          </li>
+        </ol>
+
         <a class="profile__to-all" href="#">Показать тарифы для бизнеса</a>
       </div>
     </section>
@@ -210,6 +204,16 @@
         <p class="support__info">
           Зарегистрируйтесь, это быстро и бесплатно! Уже зарегистрированы? Тогда скорее авторизуйтесь.
         </p>
+
+        <form class="registration__form" action="https://echo.htmlacademy.ru" method="POST">
+          <label class="visually-hidden" for="registration-email">E-mail:</label>
+          <input class="registration__field" type="email" name="email" id="registration-email" placeholder="E-mail">
+
+          <button class="registration__submit button button--rectangle button--no-text" type="submit">
+            <span class="registration__submit-text">Регистрация</span>
+          </button>
+        </form>
+
         <p class="support__dop">
           Остались вопросы? Мы с радостью на них ответим!
         </p>
